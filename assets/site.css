@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+#flags-section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    text-align: center;
+
+    gap: 20px;
+}
+
+#flags-section div img {
+    width: 100%;
+    margin-bottom: 10px;
+}
